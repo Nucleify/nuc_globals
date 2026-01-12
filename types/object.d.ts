@@ -5,7 +5,6 @@ import type {
   NucArticleObjectInterface,
   NucCardObjectInterface,
   NucContactObjectInterface,
-  NucDocumentationObjectInterface,
   NucFeatureObjectInterface,
   NucFileObjectInterface,
   NucLinkObjectInterface,
@@ -24,7 +23,6 @@ declare global {
     | NucArticleObjectInterface
     | NucCardObjectInterface
     | NucContactObjectInterface
-    | NucDocumentationObjectInterface
     | NucFeatureObjectInterface
     | NucFileObjectInterface
     | NucLinkObjectInterface
@@ -40,7 +38,6 @@ declare global {
     | 'article'
     | 'card'
     | 'contact'
-    | 'documentation'
     | 'feature'
     | 'file'
     | 'link'
