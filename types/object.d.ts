@@ -21,14 +21,10 @@ declare global {
   type ObjectType =
     | NucActivityObjectInterface
     | NucArticleObjectInterface
-    | NucCardObjectInterface
     | NucContactObjectInterface
-    | NucFeatureObjectInterface
     | NucFileObjectInterface
-    | NucLinkObjectInterface
     | NucMoneyObjectInterface
     | NucQuestionObjectInterface
-    | NucTaskObjectInterface
     | NucTechnologyObjectInterface
     | NucUserObjectInterface
     | undefined
@@ -36,14 +32,10 @@ declare global {
   type ObjectNameType =
     | 'activity'
     | 'article'
-    | 'card'
     | 'contact'
-    | 'feature'
     | 'file'
-    | 'link'
     | 'money'
     | 'question'
-    | 'task'
     | 'technology'
     | 'user'
 
