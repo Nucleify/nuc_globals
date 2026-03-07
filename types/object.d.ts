@@ -13,7 +13,7 @@ import type {
   NucTaskObjectInterface,
   NucTechnologyObjectInterface,
   NucUserObjectInterface,
-} from 'atomic'
+} from 'nucleify'
 
 export {}
 
