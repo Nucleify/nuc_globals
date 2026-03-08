@@ -1,5 +1,7 @@
 import type { App } from 'vue'
 
+import { isClient, isDesktop, isMobile } from 'nucleify'
+
 import {
   contributorsImgUrl,
   imgUrl,
@@ -9,8 +11,6 @@ import {
   storysetServicesImgUrl,
   technologiesImgUrl,
 } from '.'
-
-import { isClient, isDesktop, isMobile } from 'nucleify'
 
 export function registerNucGlobals(app: App): void {
   const prefix = appEnv() === 'production' ? '' : appUrl()
