@@ -1,7 +1,8 @@
 import type { App } from 'vue'
 
-import { isClient, isDesktop, isMobile } from 'nucleify'
-
+import { isClient } from '../nuc_media/utils/is_client'
+import { isDesktop } from '../nuc_media/utils/is_desktop'
+import { isMobile } from '../nuc_media/utils/is_mobile'
 import {
   contributorsImgUrl,
   imgUrl,
@@ -10,7 +11,7 @@ import {
   storysetImgUrl,
   storysetServicesImgUrl,
   technologiesImgUrl,
-} from '.'
+} from './constants/prefixes'
 
 export function registerNucGlobals(app: App): void {
   const prefix = appEnv() === 'production' ? '' : appUrl()

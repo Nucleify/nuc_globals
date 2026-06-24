@@ -1,3 +1,5 @@
+export const apiUrlPath: string = process.env.NEXT_PUBLIC_API_URL || '/api'
+
 export const imgUrl: string = '/img/'
 export const contributorsImgUrl: string = '/img/contributors/'
 export const storysetImgUrl: string = '/img/storyset/'

@@ -1,4 +1,4 @@
-export * from './nuc_globals'
+export * from './nuc_globals.react'
 
 export * from './constants/countries'
 export * from './constants/languages/codes'

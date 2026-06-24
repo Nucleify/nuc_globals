@@ -1,5 +1,3 @@
-import type { Ref } from 'vue'
-
 import type {
   NucActivityObjectInterface,
   NucArticleObjectInterface,
@@ -37,5 +35,5 @@ declare global {
 
   type SiteType = string
 
-  type SelectedObjectType = Ref<ObjectType>
+  type SelectedObjectType = ObjectType
 }
