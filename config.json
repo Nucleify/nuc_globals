@@ -1,7 +1,7 @@
 {
   "name": "nuc_globals",
   "description": "Module that contains global functions, constants, etc.",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "category": "core",
   "installed": true,
   "enabled": true
