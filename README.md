@@ -1,6 +1,6 @@
 # <img src="https://nucleify.io/favicon.ico" width="17" height="17" /> &nbsp; nuc_globals
 
-Module that contains global functions, constants, etc.
+Module that contains global functions, constants, animations, loading, and media utilities.
 
 <br>
 

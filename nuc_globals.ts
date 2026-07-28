@@ -1,8 +1,5 @@
 import type { App } from 'vue'
 
-import { isClient } from '../nuc_media/utils/is_client'
-import { isDesktop } from '../nuc_media/utils/is_desktop'
-import { isMobile } from '../nuc_media/utils/is_mobile'
 import {
   contributorsImgUrl,
   imgUrl,
@@ -12,20 +9,15 @@ import {
   storysetServicesImgUrl,
   technologiesImgUrl,
 } from './constants/prefixes'
+import { isDesktop } from './media/utils/is_desktop'
+import { isMobile } from './media/utils/is_mobile'
 
 export function registerNucGlobals(app: App): void {
   const prefix = appEnv() === 'production' ? '' : appUrl()
 
-  /**
-   *  nuc_media
-   */
-  app.config.globalProperties.isClient = isClient
   app.config.globalProperties.isMobile = isMobile
   app.config.globalProperties.isDesktop = isDesktop
 
-  /**
-   *  Images urls
-   */
   app.config.globalProperties.imgUrl = prefix + imgUrl
   app.config.globalProperties.contributorsImgUrl = prefix + contributorsImgUrl
   app.config.globalProperties.storysetImgUrl = prefix + storysetImgUrl
